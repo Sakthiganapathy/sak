@@ -1,5 +1,8 @@
 // Let's assume we have two variables 'a' and 'b' representing the numbers to be swapped
 // Original values
+int a
+int b
+int temp
 a = 5
 b = 10
 // Swapping logic
