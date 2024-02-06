@@ -1,0 +1,12 @@
+function is Even Or Odd(number):
+    // Check if the remainder of the number divided by 2 is zero
+    if number modulo 2 equals 0:
+    // If the remainder is zero, the number is even
+        return "even"
+    else:
+    // If the remainder is not zero, the number is odd
+        return "odd"
+// Example:
+number = 8
+result = isEvenOrOdd(number)
+print("The number " + number + " is " + result)
