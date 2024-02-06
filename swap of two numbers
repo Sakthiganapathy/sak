@@ -1,0 +1,10 @@
+// Let's assume we have two variables 'a' and 'b' representing the numbers to be swapped
+// Original values
+a = 5
+b = 10
+// Swapping logic
+temp = a
+a = b
+b = temp
+// After swapping
+// Now 'a' will hold the original value of 'b' and so on
