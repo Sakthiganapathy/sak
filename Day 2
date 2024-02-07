@@ -7,5 +7,11 @@ ARRAY:
       Array is used to store a collection of elements in which each element represents a index value
       It is a linear data structure that is used to organize and store data in a sequential manner
 LOOPS WITHIN CONSTRUCTS:
+      Loops within constructs are fundamental to programming, as they allow for the repetition of code within specific contexts, enabling efficient and flexible program execution.
+DECIMAL TO BINARY:
+      Divide the given number by 2
+      Note down the remainder and the quotient side by side 
        
+
+
       
