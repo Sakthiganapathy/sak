@@ -1,0 +1,21 @@
+ABSTRACTION
+      Abstraction in object-oriented programming is the concept of hiding the complex implementation details while only showing the essential features of an object.
+      It is used to manage complexity and allow the creation of a model that represents an application component
+ENCAPSULATION
+       Encapsulation in object-oriented programming (OOP) is a fundamental concept that involves bundling data and methods into a single unit, known as a class.
+       It creates a protective barrier by wrapping the data and methods within a class, and it is often implemented using access specifiers such as private, public, and protected.
+INHERITANCE
+       Inheritance is a mechanism that allows a class to inherit the properties and behaviors of another class
+       It promotes code reuse by enabling a new clasS to take on the attributes and methods of an existing class
+TYPES OF INHERITANCE
+        Single Inheritance
+        Multiple Inheritance
+        Multilevel Inheritance
+        Hierarchical Inheritance
+        Hybrid Inheritance
+POLYMORPHISM
+        Polymorphism is achieved through the use of inheritance, interfaces, and method overriding
+        Polymorphism in OOPs refers to the ability of objects to take on different forms or behave in different ways depending on the context in which they are used.
+DATA HIDING
+         It is a technique that protects the data within a class from unwanted access and prevents unneeded intrusion
+         By making data members private, they can only be accessed within the same class, providing a level of security and preventing unauthorized access or modification.
