@@ -1,0 +1,43 @@
+PROGRAM1
+PSEUDO CODE
+function add_numbers(*args):
+    if len(args) ==4:
+        return args[0] + args[1] + args[2] + args[3]
+    elif len(args) == 3:
+        return args[0] + args[1] + args[2]
+    else:
+        return None
+result1 = add_numbers(5, 10,15,20)
+result2 = add_numbers(5, 10, 15)
+output result1
+output result2
+PYTHON CODE
+def add_numbers(*args):
+    if len(args) ==4:
+        return args[0] + args[1] + args[2] + args[3]
+    elif len(args) == 3:
+        return args[0] + args[1] + args[2]
+    else:
+        return None
+result1 = add_numbers(5, 10,15,20)
+result2 = add_numbers(5, 10, 15)
+print(result1)
+print(result2)
+PROGRAM2:
+PSEUDO CODE:
+  function message(name):
+    print("Hello, " + name + "!")
+function message(name, title):
+    print("Hello, " + title + " " + name + "!")
+message("KISHORE")
+message("SUJIN", "Mr.")
+PYTHON CODE
+def message(name, title=""):
+    if title:
+        print("Hello, " + title + " " + name + "!")
+    else:
+        print("Hello, " + name + "!")
+message("KISHORE")
+message("SUJIN", "Mr.")
+
+
