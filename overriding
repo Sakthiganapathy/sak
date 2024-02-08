@@ -1,0 +1,9 @@
+PYTHON CODE
+class ram:
+     def project(self):
+         print("online voting system")
+class sam(ram):
+     def project(self):
+         print("online vehicle tracking system")
+obj=sam()
+obj.project()
