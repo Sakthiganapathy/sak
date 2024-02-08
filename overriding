@@ -1,3 +1,14 @@
+PROGRAM 1
+PSEUDO CODE
+class ram:
+     function project(self):
+         print("online voting system")
+class sam(ram):
+     function project(self):
+         print("online vehicle tracking system")
+obj=sam()
+obj.project()
+
 PYTHON CODE
 class ram:
      def project(self):
@@ -6,4 +17,43 @@ class sam(ram):
      def project(self):
          print("online vehicle tracking system")
 obj=sam()
+obj.project()
+PROGRAM 2
+PSEUDO CODE
+class ram:
+     function project(self):
+         print("online voting system")
+class sam(ram):
+     function project(self):
+         super().project()
+         print("online vehicle tracking system")
+class prem(sam):
+     function project(self):
+          super().project()
+          print("Smart weeding robot")
+class raju(prem):
+     function project(self):
+          super().project()
+          print("gas leakage indicator")
+
+obj=raju()
+obj.project()
+PYTHON CODE
+class ram:
+     def project(self):
+         print("online voting system")
+class sam(ram):
+     def project(self):
+         super().project()
+         print("online vehicle tracking system")
+class prem(sam):
+     def project(self):
+          super().project()
+          print("Smart weeding robot")
+class raju(prem):
+     def project(self):
+          super().project()
+          print("gas leakage indicator")
+
+obj=raju()
 obj.project()
