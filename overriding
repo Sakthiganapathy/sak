@@ -1,19 +1,19 @@
 PROGRAM 1
 PSEUDO CODE
-class ram:
+class student:
      function project(self):
          print("online voting system")
-class sam(ram):
+class sam(student):
      function project(self):
          print("online vehicle tracking system")
 obj=sam()
 obj.project()
 
 PYTHON CODE
-class ram:
+class  student:
      def project(self):
          print("online voting system")
-class sam(ram):
+class sam( student):
      def project(self):
          print("online vehicle tracking system")
 obj=sam()
