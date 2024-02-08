@@ -1,3 +1,20 @@
+PSEUDO CODE
+abstract class Animal:
+    method __init__(name):
+        self.name = name
+    abstract method make_sound()
+class Dog inherits Animal:
+    method make_sound():
+        return "bow"
+class Cat inherits Animal:
+    method make_sound():
+        return "Meow!"
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+output dog.make_sound()
+output cat.make_sound()
+
+PYTHON CODE
 from abc import ABC, abstractmethod
 class Animal(ABC):
     def __init__(self, name):
