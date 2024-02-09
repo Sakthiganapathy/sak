@@ -1,3 +1,14 @@
+PROGRAM 1
+my_string = "Hello,Everyone!"
+print(my_string.lower())  
+print(my_string.upper()) 
+print(my_string.capitalize()) 
+print(my_string.swapcase()) 
+print(my_string.count('o'))   
+print(my_string.replace('World', 'Universe'))  
+print(my_string.split(',')) 
+
+PROGRAM 2
 data="python language"
 out=data.capitalize()
 print("Capitalize Word:",out)
@@ -22,11 +33,9 @@ data="Python Language."
 out=data.find("Language")
 print("Find:",out)
 
-
 data="Python {} Language."
 out=data.format("is a")
 print("Format:",out)
-
 
 data="Python Language."
 out=data.index("Language")
@@ -52,16 +61,13 @@ data="PYTHON"
 out=data.lower()
 print("Lower:",out)
 
-
 data="python"
 out=data.upper()
 print("Upper:",out)
 
-
 data="Python Language"
 out=data.replace("Python","HTML")
 print("Replace:",out)
-
 
 data="Python Language"
 out=data.split()
