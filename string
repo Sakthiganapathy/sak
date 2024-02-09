@@ -9,6 +9,19 @@ print(my_string.replace('World', 'Universe'))
 print(my_string.split(',')) 
 
 PROGRAM 2
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
+concatenated_string = string1 + " " + string2
+print("Concatenated string:", concatenated_string)
+if string1.startswith(string2):
+    print("The first string starts with the second string.")
+else:
+    print("The first string does not start with the second string.")
+words = concatenated_string.split()
+reversed_words = concatenated_string.join(words[::-1])
+print("Reversed words:", reversed_words)
+
+PROGRAM 3
 data="python language"
 out=data.capitalize()
 print("Capitalize Word:",out)
