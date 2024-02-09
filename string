@@ -13,6 +13,14 @@ data="python language"
 out=data.capitalize()
 print("Capitalize Word:",out)
 
+data="i love python language
+out=data.partition()
+print("Partition word: ,out)
+
+data="python language"
+out=data.isidentifier()
+print("Is identifier:",out)
+
 data="Python Language"
 out=data.casefold()
 print("Casefold:",out)
@@ -41,7 +49,7 @@ data="Python Language."
 out=data.index("Language")
 print("Index:",out)
 
-data="34s23"
+data="3423"
 out=data.isdigit()
 print("Isdigit:",out)
 
