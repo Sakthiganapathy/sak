@@ -1,0 +1,22 @@
+EXAMPLE 1
+x = 10
+y = 20
+result = "x is greater than y" if x > y else "x is less than or equal to y"
+print(result)
+EXAMPLE 2
+string1="summer"
+string2="winter"
+output= "both are same words" if string1=string2 else "both are different words"
+print(output)
+EXAMPLE 3
+number = 10
+result = "Even" if number % 2 == 0 else "Odd"
+print(f"The number is {result}")
+EXAMPLE 4
+a, b, c = 10, 20, 15
+max_value = a if (a > b and a > c) else (b if b > c else c)
+print(f"The maximum value is: {max_value}")
+EXAMPLE 5
+string = "racecar"
+is_palindrome = True if string == string[::-1] else False
+print(f"The string is a palindrome: {is_palindrome}")
