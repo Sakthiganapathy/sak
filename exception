@@ -26,3 +26,14 @@ def get_person_info(person):
         print("Attribute Error:", e)
 sam = Person("sam", 30)
 get_person_info(sam)
+EXAMPLE 3
+def read_file(filename):
+    try:
+        with open(filename, 'r') as file:
+            content = file.read()
+            print("File content:", content)
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+filename = "DC.txt"
+read_file(filename)
+
