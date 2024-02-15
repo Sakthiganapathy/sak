@@ -1,0 +1,28 @@
+EXAMPLE 1
+try:
+    my_array = [1, 2, 3, 4, 5]
+    index = int(input("Enter an index: "))
+    value = my_array[index]
+    print("Value at index", index, "is", value)
+except IndexError:
+    print("Index out of range!")
+except ValueError:
+    print("Please enter a valid integer index!")
+else:
+    print("No exceptions occurred.")
+finally:
+    print("This will always be executed")
+EXAMPLE 2
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+def get_person_info(person):
+    try:
+        print("Name:", person.name)
+        print("Age:", person.age)
+        print("Address:", person.address)
+    except AttributeError as e:
+        print("Attribute Error:", e)
+sam = Person("sam", 30)
+get_person_info(sam)
